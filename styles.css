@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  //display: flex;
+  //background-color: #ff8c00;
 }
 
 body {
@@ -58,7 +60,7 @@ a {
 
 @media (min-width: 1200px) {
   body {
-      background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
   }
 }
 
@@ -72,15 +74,14 @@ a {
 }
 
 .nav-link {
-    float: left;
-    display: block;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
-
 
 .message-box {
   margin: 1.5rem;
